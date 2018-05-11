@@ -21,7 +21,7 @@ def novaImagem(nome):
 
     nova.show()
 
-directory = "/var/www/html/img/"
+directory = "/var/www/html/img/escala-cinza/"
 
 for filename in os.listdir(directory):
     if filename.endswith(".jpg"): 
